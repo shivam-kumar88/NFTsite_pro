@@ -1,10 +1,153 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.header{
+  display: flex;
+  background-color: rgb(43, 42, 46);
+  height: 100px;
+  width: auto;
+  /* flex-direction: row; */
+  padding-right: 100px;
+  padding-left: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo{
+ 
+  display: flex;
+  /* height: 70px;
+  width: 70px; */
+  flex-direction: row;
+  color: #fff;
+  align-items: center;
+}
+.filter{
+  color: #fff;
+  font-size: large;
+  margin-right: 20px;
+}
+
+.Idbutton{
+  display: flex;
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: rgb(214, 103, 13);
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.main{
+  display: flex;
+  height: 420px;
+  width: auto;
+  background-color: #11121a;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.filtersection{
+  display: flex;
+  flex-direction: column;
+  width: 340px;
+  height: 300px;
+  background-color: rgb(43, 42, 46);
+  border-radius: 30px;
+  padding: 30px;
+}
+
+.content{
+  display: flex;
+  width: 920px;
+  height: 250px;
+  border-radius: 30px;
+  background-color: rgb(43, 42, 46);
+  padding: 30px;
+}
+.bottomView{
+  display: flex;
+  width: auto;
+  height: 150px;
+  background-color: rgb(43, 42, 46);
+  
+}
+
+.filter__top{
+  display: flex;
+  width: 330px;
+  height: 40px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-width: 2px;
+  border-color: #5e5c5c;
+}
+
+.status_text{
+  display: flex;
+  color: rgb(214, 103, 13);
+  font-size: large;
+  width: 300px;
+  justify-content: left;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.status__type{
+  width: 300;
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+.status_box{
+  display: flex;
+  border: 3px solid rgb(214, 103, 13);
+  width: 140px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  color: rgb(214, 103, 13);
+}
+
+.filter_checkbox{
+  display: flex;
+  color: rgb(214, 103, 13);
+  font-size: medium;
+  width: 300px;
+  justify-content: left;
+  font-weight: 500;
+  margin-top: 10px;
+  align-items: center;
+}
+.checkbox{
+  width: 10px;
+  height: 10px;
+  border: 1px solid rgb(214, 103, 13);
+}
+.content_top{
+  display: flex;
+  justify-content: space-between;
+  width: 900px;
+  
+}
+
+.add_matammark{
+  color: rgb(214, 103, 13);
+  font-size: 20;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -13,16 +156,6 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
 .App-link {
   color: #61dafb;

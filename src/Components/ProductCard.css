@@ -1,0 +1,7 @@
+.card{
+    display: flex;
+    height: 120px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: aliceblue;
+}
